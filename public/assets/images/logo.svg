@@ -1,0 +1,68 @@
+<svg id="Symbol_3_1" data-name="Symbol 3 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="139.652 9.18 362.63 143.281">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #a9e8dc;
+      }
+
+      .cls-3 {
+        fill: #02bec4;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: #e1f7e7;
+        font-size: 20px;
+        font-family: Georgia;
+      }
+
+      .cls-6 {
+        fill: snow;
+        font-size: 35px;
+        font-family: FairplexNarrowOT-Black, Fairplex Narrow OT;
+        font-weight: 800;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e1f7e7"/>
+      <stop offset="1" stop-color="#717c74"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_36" data-name="Group 36">
+    <g id="Group_32" data-name="Group 32" transform="translate(140.701 9.994)">
+      <g id="Group_30" data-name="Group 30" transform="translate(0)">
+        <g id="Group_28" data-name="Group 28" transform="translate(11.654 17.433)">
+          <path id="Path_78" data-name="Path 78" class="cls-1" d="M-482.766,4174.988l41.527-54.036,45.2,54.036h-86.728Z" transform="translate(482.766 -4120.952)"/>
+          <path id="Path_80" data-name="Path 80" class="cls-1" d="M0,54.035,41.527,0l45.2,54.035H0Z" transform="translate(86.728 108.033) rotate(180)"/>
+        </g>
+        <g id="Group_29" data-name="Group 29">
+          <path id="Path_78-2" data-name="Path 78" class="cls-2" d="M-482.766,4191.8l52.786-70.85,57.457,70.85H-482.766Z" transform="translate(482.766 -4120.954)"/>
+          <path id="Path_80-2" data-name="Path 80" class="cls-3" d="M0,70.851,52.786,0l57.457,70.851H0Z" transform="translate(110.243 141.652) rotate(180)"/>
+        </g>
+      </g>
+      <g id="Group_31" data-name="Group 31" transform="translate(10.809 15.996)">
+        <g id="Group_28-2" data-name="Group 28" transform="translate(9.368 13.519)">
+          <path id="Path_78-3" data-name="Path 78" class="cls-1" d="M-482.766,4162.854l33.382-41.9,36.336,41.9h-69.717Z" transform="translate(482.766 -4120.952)"/>
+          <path id="Path_80-3" data-name="Path 80" class="cls-1" d="M0,41.9,33.382,0,69.717,41.9H0Z" transform="translate(69.717 83.775) rotate(180)"/>
+        </g>
+        <g id="Group_29-2" data-name="Group 29" transform="translate(0)">
+          <path id="Path_78-4" data-name="Path 78" class="cls-4" d="M-482.766,4175.895l42.433-54.941,46.188,54.941h-88.621Z" transform="translate(482.766 -4120.954)"/>
+          <path id="Path_80-4" data-name="Path 80" class="cls-4" d="M0,54.942,42.433,0,88.621,54.942H0Z" transform="translate(88.621 109.846) rotate(180)"/>
+        </g>
+      </g>
+    </g>
+    <text id="C_C" data-name="C | C" class="cls-5" transform="translate(164.596 71.47)"><tspan x="9.673" y="18">C | C</tspan></text>
+  </g>
+  <text id="Cesar_Caceres" data-name="Cesar Caceres" class="cls-6" transform="translate(251.281 58.777)"><tspan x="33.109" y="31">Cesar Caceres</tspan></text>
+</svg>

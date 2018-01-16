@@ -1,0 +1,21 @@
+<svg id="Group_38" data-name="Group 38" xmlns="http://www.w3.org/2000/svg" viewBox="1386 1392 239 81">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path id="Path_64" data-name="Path 64" class="cls-1" d="M297.554,185.81l-6.184,11.739,17.621,24.984L291.37,247.517l6.184,11.739,26.152-36.722Z" transform="translate(1168.153 1206.19)"/>
+  <g id="Group_37" data-name="Group 37">
+    <path id="Path_62" data-name="Path 62" class="cls-1" d="M168.832,185.811l-26.151,36.722,26.151,36.722,6.185-11.738L157.4,222.533l17.622-24.984Z" transform="translate(1243.319 1206.19)"/>
+    <path id="Path_63" data-name="Path 63" class="cls-1" d="M228.707,258.891h11.479L258.429,187H246.95Z" transform="translate(1199.831 1205.679)"/>
+    <text id="CODE" class="cls-2" transform="translate(1510 1420)"><tspan x="0" y="42">CODE</tspan></text>
+  </g>
+</svg>

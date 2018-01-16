@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1369 1631 276 66">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-1 {
+        font-size: 50px;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+      }
+    </style>
+  </defs>
+  <g id="Group_21" data-name="Group 21" transform="translate(56 232)">
+    <text id="UX_UI" data-name="UX/UI" class="cls-1" transform="translate(1313 1399)"><tspan x="0" y="52">UX/UI</tspan></text>
+    <text id="Design" class="cls-2" transform="translate(1454 1410)"><tspan x="0" y="42">Design</tspan></text>
+  </g>
+</svg>

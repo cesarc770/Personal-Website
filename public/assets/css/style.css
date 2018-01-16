@@ -1,0 +1,101 @@
+body {
+	/*position: absolute;
+	left:0;
+	top:0;
+	right: 0;
+	bottom: 0;*/
+	margin:0;
+	padding: 0;
+	
+}
+nav{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 3em;
+	padding: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+#main-container{
+	margin:0;
+	padding: 0;
+}
+#home{
+	background : url('../images/computer.svg') no-repeat;
+	color:white;
+	background-size: 100%;
+	width: 100%;
+	min-height: 650px;
+
+}
+
+#downarrow{
+margin-left: 49%;
+width: 2%;
+
+}
+
+#rest{
+	width: 100%;
+	position: relative;
+	left: 0;
+	right:0;
+}
+#about {
+	background: url('../images/banner.png') no-repeat;
+	background-size: 100%;
+	height: 600px;
+	width: 100%;
+}
+#about-container{
+	background: #E1F7E7;
+	height: 900px;
+}
+
+#about h2 {
+	color:white;
+}
+#need-site h2{
+	color: #0284A8;
+	padding-top: 0;
+}
+#c-d{
+	width: 50%
+}
+.c-d{
+	width: 30%;
+
+}
+.fairplex{
+	font-family: "fairplex-narrow";
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.right{
+	float:right;
+}
+#contact{
+	height: 500px;
+	background-color: #A9E8DC;
+	margin:0;
+	padding: 0;
+}
+#me-pic{
+	width: 150px;
+}
+
+.work-item-img:hover {
+	opacity: 0.5;
+}
+@media (min-width: 400px){
+
+#main-container {
+    width: 100%;
+}
+}
+
+
+
