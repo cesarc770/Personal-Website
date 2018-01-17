@@ -16,6 +16,27 @@ $("#pets-img").on("mouseleave", function(){
 	$("#pets-img-text").css("display", "none");
 });
 
+function enterText(){
+	$("#code").removeClass("out");
+	$("#code").addClass("in");
+	$("#ui-ux").removeClass("out");
+	$("#ui-ux").addClass("in");
+}
+
+function exitText(){
+	$("#code").removeClass("in");
+	$("#code").addClass("out");
+	$("#ui-ux").removeClass("in");
+	$("#ui-ux").addClass("out");
+}
+
+function animateText(){
+	enterText();
+	setTimeout(exitText, 3000);
+}
+setTimeout(enterText, 2000);
+setInterval(animateText, 5000);
+
 var showText = function (target, message, index, interval) { 
   if (index < message.length) {
     $(target).append(message[index++]);

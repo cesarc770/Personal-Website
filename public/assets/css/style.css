@@ -1,9 +1,5 @@
+
 body {
-	/*position: absolute;
-	left:0;
-	top:0;
-	right: 0;
-	bottom: 0;*/
 	margin:0;
 	padding: 0;
 	
@@ -80,7 +76,7 @@ width: 2%;
 #contact{
 	height: 500px;
 	background-color: #A9E8DC;
-	margin:0;
+	margin-top: 4%;
 	padding: 0;
 }
 #me-pic{
@@ -90,6 +86,55 @@ width: 2%;
 .work-item-img:hover {
 	opacity: 0.5;
 }
+
+.animation {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+footer{
+	background-color: #BCBCBC;
+	position:relative;
+	bottom: 0;
+	min-height: 150px;
+}
+
+@keyframes in {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+ }
+
+.in {
+  animation-name: in;
+}
+@keyframes out {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.out {
+  animation-name: out;
+}
+
+
+
+
+
 @media (min-width: 400px){
 
 #main-container {
