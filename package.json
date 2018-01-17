@@ -1,15 +1,15 @@
 {
-  "name": "my_portfolio",
+  "name": "Personal-Website",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cesarc770/My_Portfolio.git"
+    "url": "git+https://github.com/cesarc770/Personal-Website.git"
   },
   "author": "Cesar Caceres",
   "license": "ISC",
