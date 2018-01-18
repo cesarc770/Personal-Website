@@ -26,6 +26,15 @@ h2{
 
 }
 
+#main-title{
+	padding-top: 10%; 
+	font-size: 80px;
+}
+#msg{
+	padding-bottom: 20px;
+	font-size: 2.5em;
+}
+
 #downarrow{
 margin-left: 49%;
 width: 2%;
@@ -41,12 +50,12 @@ width: 2%;
 #about {
 	background: url('../images/banner.png') no-repeat;
 	background-size: 100%;
-	height: 600px;
+	height: 590px;
 	width: 100%;
 }
 #about-container{
 	background: #E1F7E7;
-	height: 900px;
+	height: 850px;
 }
 
 #about h2 {
@@ -56,8 +65,17 @@ width: 2%;
 	color: #0284A8;
 	padding-top: 0;
 }
+#need-site-text{
+	font-size: 20px; 
+	margin-left: 20%;
+	width: 60%; 
+	color: #707070;
+	}
 #c-d{
-	width: 50%
+	width: 50%;
+	padding-top: 1%;
+	 color: white; 
+	 font-size: 30px;
 }
 .c-d{
 	width: 30%;
@@ -72,6 +90,9 @@ width: 2%;
 }
 .right{
 	float:right;
+}
+#logo{
+	width: 250px;
 }
 #contact{
 	height: 500px;
@@ -131,15 +152,170 @@ footer{
   animation-name: out;
 }
 
+/*Media queries*/
+@media (max-width: 1200px){
+	#about {
+		height: 550px;
+		width: 100%;
+	}
+	#about-container{
+		height: 820px;
+	}
+}
 
+@media (max-width: 989px){
+
+	#logo{
+		width: 200px;
+	}
+	#home{
+	min-height: 500px;
+
+	}
+	#main-title{
+		font-size: 65px;
+	}
+	#msg{
+		padding-bottom: 20px;
+		font-size: 1.8em;
+	}
+	h2{
+		font-size: 2em;
+		padding: 20px;
+	}
+	#c-d{
+	 font-size: 20px;
+	}
+	#about-container{
+		background: #E1F7E7;
+		height: 700px;
+	}
+	#about {
+		height: 460px;
+		width: 100%;
+	}
+	#need-site-text{
+		font-size: 15px; 
+		margin-left: 15%;
+		width: 70%; 
+	}
+
+}
+
+@media (max-width: 767px){
+	#contact{
+		height: 800px;
+	}
+	#home{
+	min-height: 450px;
+
+	}
+	#main-title{
+		font-size: 55px;
+	}
+	#msg{
+		padding-bottom: 10px;
+		font-size: 1.3em;
+	}
+	#about-container{
+		height: 680px;
+	}
+	#about {
+		height: 375px;
+	}
+}
+
+@media (max-width: 677px){
+	#home{
+	min-height: 400px;
+
+	}
+	#main-title{
+		font-size: 50px;
+	}
+	#msg{
+		padding-bottom: 5px;
+		font-size: 1.1em;
+	}
+	#about-container{
+		height: 580px;
+	}
+	#about {
+		height: 305px;
+	}
+}
+
+@media (max-width: 602px){
+	#home{
+	min-height: 300px;
+
+	}
+	#main-title{
+		font-size: 40px;
+	}
+	#msg{
+		padding-bottom: 5px;
+		font-size: 1em;
+	}
+	h2{
+		font-size: 1.5em;
+		padding: 15px;
+	}
+	#c-d{
+	 font-size: 15px;
+	}
+	#about-container{
+		height: 500px;
+	}
+	#about {
+		height: 275px;
+	}
+
+}
+
+@media (max-width: 451px){
+	#home{
+	min-height: 250px;
+
+	}
+	#main-title{
+		font-size: 25px;
+	}
+	#msg{
+		padding-bottom: 5px;
+		font-size: .8em;
+	}
+	#logo{
+		width: 100px;
+	}
+	h2{
+		font-size: 1em;
+		padding: 5px;
+	}
+	#c-d{
+	 font-size: 10px;
+	}
+	#about-container{
+		height: 400px;
+	}
+	#about {
+		height: 185px;
+	}
+	footer{
+		height: 50px;
+	}
+	#me-pic{
+		width: 135px;
+	}
+}
 
 
 
 @media (min-width: 400px){
 
-#main-container {
-    width: 100%;
-}
+	#main-container {
+	    width: 100%;
+	}
 }
 
 
