@@ -47,7 +47,6 @@ var showText = function (target, message, index, interval) {
 }
 
 function showTextFunc (target, message, index, interval){
-	alert("hey");
 	$(target).empty();
 
 	showText(target, message, index, interval);
