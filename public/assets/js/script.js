@@ -53,4 +53,6 @@ function showTextFunc (target, message, index, interval){
 
 }
 
+
+
 setInterval(showText('#msg', 'I Design & Build Custom Web Applications', 0, 100), 3000);

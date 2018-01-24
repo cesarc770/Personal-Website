@@ -122,7 +122,7 @@
 				<a href="https://www.linkedin.com/in/cesar-caceres/" target="_blank"><img src="/assets/images/linkedin.svg"></a>
 			</div>
 			<div class="col-sm-6 text-center" style="margin-top: 100px;">
-				<form class="form">
+				<form class="form" action="/message" method="POST">
 				  <div class="form-inline" style="width: 100%; margin-bottom: 2%;">
 				  	<input type="text" class="form-control" id="name" name="name" placeholder="* Enter Your Name" style="width: 48%; float: left;" required>
 				    <input type="email" class="form-control" id="email" name="email" placeholder="* Enter Your Email" style="width: 48%; margin-left: 4%;" required>
@@ -137,7 +137,7 @@
 				  	<textarea class="form-control" rows="5" id="comment" name="comment" placeholder="* Please enter a little bit about your project or idea. Include things like what you seek to accomplish, timeline and tentative budget if at all possible. I will get back to you in less than 48 hours." required></textarea>
 				  </div>
 				  <p style="color: grey;">* required field</p>
-				  <button type="submit" class="btn btn-info">Submit</button>
+				  <button type="submit" class="btn btn-info" id="form-btn">Submit</button>
 
 				</form>
 			</div>
