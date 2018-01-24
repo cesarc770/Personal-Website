@@ -1,5 +1,5 @@
 const transporter = require('../services/Nodemailer');
-var path = require('path');
+// var path = require('path');
 var keys = require('../config/keys');
 
 module.exports = function(app){
