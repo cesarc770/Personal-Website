@@ -15,6 +15,12 @@ $("#pets-img").on("mouseover", function(){
 $("#pets-img").on("mouseleave", function(){
 	$("#pets-img-text").css("display", "none");
 });
+$("#scraper-img").on("mouseover", function(){
+	$("#scraper-img-text").css("display", "block");
+});
+$("#scraper-img").on("mouseleave", function(){
+	$("#scraper-img-text").css("display", "none");
+});
 
 function enterText(){
 	$("#code").removeClass("out");
