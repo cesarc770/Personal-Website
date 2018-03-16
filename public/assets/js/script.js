@@ -21,6 +21,12 @@ $("#scraper-img").on("mouseover", function(){
 $("#scraper-img").on("mouseleave", function(){
 	$("#scraper-img-text").css("display", "none");
 });
+$("#dev-img").on("mouseover", function(){
+	$("#dev-img-text").css("display", "block");
+});
+$("#dev-img").on("mouseleave", function(){
+	$("#dev-img-text").css("display", "none");
+});
 
 function enterText(){
 	$("#code").removeClass("out");
