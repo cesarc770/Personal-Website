@@ -10,9 +10,22 @@ nav{
 
 h2{
 	font-size: 3em;
-	padding: 35px;
+	padding: 55px;
 	font-family: 'Roboto', sans-serif;
 }
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 #main-container{
 	margin:0;
 	padding: 0;
@@ -23,6 +36,8 @@ h2{
 	background-size: cover;
 	width: 100%;
 	min-height: 650px;
+	background-attachment: fixed;
+	display: block;
 
 }
 
@@ -55,7 +70,7 @@ width: 2%;
 }
 #about-container{
 	background: #E1F7E7;
-	height: 850px;
+	height: 950px;
 }
 
 #about h2 {
