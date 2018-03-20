@@ -14,6 +14,10 @@ h2{
 	font-family: 'Roboto', sans-serif;
 }
 
+#header {
+	display: none;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -32,11 +36,12 @@ h2{
 #home{
 	background : url('../images/computer.svg') no-repeat center center;
 	color:white;
+	height:100%;
 	background-size: cover;
 	width: 100%;
-	min-height: 650px;
 	background-attachment: fixed;
-	display: block;
+	size:cover;
+
 
 }
 
