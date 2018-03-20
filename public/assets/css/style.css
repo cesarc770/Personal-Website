@@ -174,11 +174,11 @@ footer{
 
 @media (min-width: 1201px){
 	#about {
-		height: 650px;
+		height: 750px;
 		width: 100%;
 	}
 	#about-container{
-		height: 920px;
+		height: 1020px;
 	}
 }
 /*Media queries*/
