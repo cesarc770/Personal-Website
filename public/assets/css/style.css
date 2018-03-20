@@ -172,6 +172,15 @@ footer{
   animation-name: out;
 }
 
+@media (min-width: 1201px){
+	#about {
+		height: 650px;
+		width: 100%;
+	}
+	#about-container{
+		height: 920px;
+	}
+}
 /*Media queries*/
 @media (max-width: 1200px){
 	#about {
@@ -179,7 +188,7 @@ footer{
 		width: 100%;
 	}
 	#about-container{
-		height: 920px;
+		height: 820px;
 	}
 }
 
@@ -204,7 +213,7 @@ footer{
 	}
 	#about-container{
 		background: #E1F7E7;
-		height: 800px;
+		height: 700px;
 	}
 	#about {
 		height: 460px;
